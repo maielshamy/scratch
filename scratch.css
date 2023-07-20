@@ -1,0 +1,94 @@
+body {
+    font-family: 'Margarine', cursive;
+}
+header {
+    border-top: 50px solid rgb(3, 67, 147);
+}
+
+body {
+    background-image: url("what-is-scratch.jpg" )   ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 50px solid rgb(3, 67, 147);
+}
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.box_levels{
+    background-color: rgba(80, 153, 243, 0.9);
+    width: 100%;
+    height: 100%;
+    right: 15cm;
+    max-width: 90000px;
+    max-height: 600px;
+    padding: 50px;
+    border-radius: 50px;
+    box-shadow: 0 0 10px   rgba(80, 153, 243, 0.1);
+    display :inline;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    z-index: 1;
+
+}
+
+h1   {
+    color:rgb(1, 55, 121);
+    font-size: 500%;
+    position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100px;
+}
+
+
+
+p   {
+    color:rgb(3, 67, 147);
+    font-size: 700%;
+    position: static;
+}
+
+button {
+    background-color: rgb(255, 255, 255);
+    color:rgb(3, 67, 147);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.bu2{
+    background-color: rgb(255, 255, 255);
+    color:rgb(3, 67, 147);
+			border: none;
+			padding: 5px 5px;
+			border-radius: 5px;
+			font-size: 3.7px;
+			cursor: pointer;
+			position: absolute; /* Add absolute positioning to the button */
+			top: 10px; /* Adjust the top position of the button to align it with the border */
+			left: 20px; /* Adjust the right position of the button to move it away from the edge of the header */
+}
+.more_top_right{
+
+    position: absolute;
+    top: 0;
+    right: 0;
+    max-width: 10%;
+
+
+}
